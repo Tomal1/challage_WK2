@@ -25,7 +25,6 @@ ul li{
 .hero{
     width: 500px;
     height: auto;
-
 }
 
 .hero img{
@@ -33,73 +32,33 @@ ul li{
     height: auto;
 }
 
+.workTitle{
+    position: relative;
+    margin: auto;
+    top: 0px;
+}
+
 #TheWork{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex: 0 0 100%;
     height: 100vh;
 }
 
-.thumnail{
-    width: 100%;
-}
-
-
-.thumnail input[type="radio"]{
-    width:60px;
-    height: 60px;
+.thumnail img{
+    width:400px;
+    height: 300px;
     display: inline-block;
-
     outline: none;
     appearance: none;
     cursor: pointer;
-    margin: 0 10px 0 0;
+    margin: 0 15px 0 15px;
 }
 
-.thumnail input[type="radio"]:hover{
+#images:hover{
     transform: scale(1.1);
-
-}
-
-#one{
-    background-image:url(website1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-#two{
-    background-image:url(website2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#three{
-    background-image:url(SL_030420_28660_03.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.largeImage{
-    width: 700px;
-    height: 700px;
-    margin: 20px 0 0 0;
-}
-
-#one:checked ~ .largeImage{
-    background-image:url(website1.png);
-    background-size: contain;
-    background-repeat: no-repeat;    
-}
-
-#two:checked ~ .largeImage{
-    background-image:url(website2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#three:checked ~ .largeImage{
-    background-image:url(SL_030420_28660_03.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px 1px black;
 }
 
 footer{
