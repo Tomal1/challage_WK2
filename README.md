@@ -1,4 +1,4 @@
-# <week 2 assignment>
+# week 2 assignment
 
 ## Description
 
@@ -6,6 +6,9 @@ This was the second assignment for the coding bootcamp, the task was to create a
 The contents showcasing the developes previous deployed websites as well as demonstrating various functonality traites as requested on the assignment specification.
 
 There were many challenges such as positoning the contents at various screen sizes and still being funcatinal, however it was a great learning experince. 
+
+git hub reposotry: https://github.com/Tomal1/challage_WK2
+deployed website: https://tomal1.github.io/challage_WK2/
 
 ## Usage
 
